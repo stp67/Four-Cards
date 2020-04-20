@@ -30,13 +30,15 @@ body {
 .top{
     margin-top: 6em;
     text-align: center;
-    width: 300px;
+    max-width: 450px;
     margin: 6em auto 0 auto;
 }
 
 .text-top {
-    font-size: 1.5em;
+    font-size: 2.2em;
+    
     margin-bottom: 0;
+    color:var(--very_dark_blue );
     
 }
 
@@ -58,6 +60,7 @@ h2 {
 h2,
 h3 {
     color:var(--very_dark_blue );
+    font-weight: 600;
 }
 
 .card {
@@ -102,6 +105,9 @@ h3 {
     flex-wrap: wrap;
     flex-basis: 390px;
     }
+   
+       
+    
 }
 
 .content {
